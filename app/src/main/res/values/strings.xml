@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Lonely</string>
+    <string name="tv_login">Don\'t have an Account?</string>
+    <string name="login_username">Enter Username</string>
+    <string name="login_pass">Enter Password</string>
+    <string name="btn_login">Login</string>
+    <string name="create_email">Enter Email address</string>
+    <string name="create_phone">Enter Phone Number</string>
+    <string name="btn_button">Create Account</string>
+    <string name="tv_create">Already have an Account?</string>
+    <string name="nav_photo">Photos</string>
+    <string name="nav_videos">Videos</string>
+
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="camera_fragment">Camera Fragment</string>
+    <string name="video_fragment">Video Fragment</string>
+    <string name="meme_prototype">Meme Prototype</string>
+    <string name="nav_articles">Articles</string>
+    <string name="article_fragment">Article Fragment</string>
+    <string name="communicate_with_us">Communicate with us</string>
+    <string name="share_app">Share App</string>
+    <string name="contact_us">Contact Us</string>
+</resources>

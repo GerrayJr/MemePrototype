@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="705dp"
+        android:layout_marginTop="50dp"
+        tools:ignore="UselessParent">
+
+        <EditText
+            android:id="@+id/create_user"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="100dp"
+            android:hint="@string/login_username" />
+
+        <EditText
+            android:id="@+id/create_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_user"
+            android:layout_alignStart="@+id/create_user"
+            android:layout_marginTop="20dp"
+            android:hint="@string/create_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/create_phone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_email"
+            android:layout_alignStart="@+id/create_email"
+            android:layout_marginTop="20dp"
+            android:hint="@string/create_phone"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/create_pass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_phone"
+            android:layout_alignStart="@+id/create_user"
+            android:layout_marginTop="20dp"
+            android:hint="@string/login_pass"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_pass"
+            android:layout_alignStart="@+id/create_user"
+            android:layout_marginTop="30dp"
+            android:text="@string/btn_button" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_create"
+            android:layout_alignStart="@+id/create_user"
+            android:layout_marginTop="30dp"
+            android:text="@string/tv_create"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="633dp"
+        android:layout_marginTop="100dp"
+        tools:ignore="UselessParent">
+
+        <EditText
+            android:id="@+id/ed_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="100dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/login_username" />
+
+        <EditText
+            android:id="@+id/ed_pass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_email"
+            android:layout_alignStart="@+id/ed_email"
+            android:layout_marginTop="20dp"
+            android:hint="@string/login_pass" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_pass"
+            android:layout_alignStart="@+id/ed_email"
+            android:layout_marginTop="30dp"
+            android:text="@string/btn_login" />
+
+        <TextView
+            android:id="@+id/tv_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_login"
+            android:layout_alignStart="@+id/ed_email"
+            android:layout_marginTop="30dp"
+            android:text="@string/tv_login"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
